@@ -8,19 +8,19 @@
     "client": "node scripts/start-client.js",
     "start": "concurrently \"nodemon server.js\" \"npm run client\"",
     "build": "node scripts/build.js",
-    "posttest": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "installDeps": "yarn && cd client && yarn"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/natplusultra/maXval.git"
+    "url": "git+https://github.com/ermiaswoldetsadik/Valuation"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/natplusultra/maXval/issues"
+    "url": "https://github.com/ermiaswoldetsadik/Valuation/issues"
   },
-  "homepage": "https://github.com/natplusultra/maXval#readme",
+  "homepage": "https://github.com/ermiaswoldetsadik/Valuation#readme",
   "dependencies": {
     "axios": "^0.17.1",
     "body-parser": "^1.18.2",
