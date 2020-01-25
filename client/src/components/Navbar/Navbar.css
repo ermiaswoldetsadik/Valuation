@@ -1,0 +1,24 @@
+.material-icons {
+    margin: 0px 0px 0px 30px;
+}
+
+.nav-wrapper {
+    margin: 0px;
+}
+
+.avatar {
+    margin: 0px 15px;
+}
+
+.brand-logo {
+    align-content: left;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        left: 20%;
+    }
+    nav ul a {
+        padding: 0 5px;
+    }
+}

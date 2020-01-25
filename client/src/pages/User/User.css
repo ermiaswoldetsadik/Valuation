@@ -1,0 +1,63 @@
+.wrapper {
+    margin: 40px 85px;
+}
+
+.grid-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.greeting {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.upload-text {
+    text-align: center;
+}
+
+.avatar-row {
+    margin-bottom: 0px;
+}
+
+.products-header {
+    background-color: rgb(232, 233, 235);
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+
+.product-card:hover {
+    opacity: 0.65;
+}
+
+.delete-btn > .btn {
+    width: 100%;
+    height: 25px;
+    line-height: 180%;
+    background-color: rgb(167, 167, 167);
+}
+
+.delete-btn > .btn:hover {
+    background-color: rgb(224, 77, 77);
+}
+
+@media only screen and (max-width: 992px) {
+    .wrapper {
+        margin:10px
+    }
+
+    .grid-div {
+        display: inline-block;
+    }
+
+    .greeting {
+        margin-left: 0px;
+        font-size: 25px;
+    }
+
+  }
+  
+  
+  

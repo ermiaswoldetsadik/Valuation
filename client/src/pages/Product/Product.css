@@ -1,0 +1,98 @@
+.page-wrapper {
+    margin: 80px;
+}
+.text-graph {
+	margin-left: 10px;
+}
+
+.data-div {
+    margin-left: 40px;
+}
+
+.CircularProgressbar {
+  /*
+   * This fixes an issue where the CircularProgressbar svg has
+   * 0 width inside a "display: flex" container, and thus not visible.
+   *
+   * If you're not using "display: flex", you can remove this style.
+   */
+  width: 100%;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #3e98c7;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #3e98c7;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-background {
+  fill: #d6d6d6;
+}
+
+/*
+ * Sample background styles. Use these with e.g.:
+ *
+ *   <CircularProgressbar
+ *     className="CircularProgressbar-inverted"
+ *     background
+ *     percentage={50}
+ *   />
+ */
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+  fill: #3e98c7;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+  fill: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+  stroke: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+  stroke: transparent;
+}
+
+.progressbar-quality .CircularProgressbar-path { stroke: #63c2de; }
+
+.progressbar-appeal .CircularProgressbar-path { stroke: #4dbd74; }
+
+.progressbar-value .CircularProgressbar-path { stroke: #f86c6b; }
+
+.donuts-div {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.rating-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color:  rgb(232, 233, 235);
+}
+
+@media only screen and (max-width: 992px) {
+  .page-wrapper {
+      margin:10px
+  }
+
+  .chartjs-render-monitor {
+    width:300px;
+    height:300px;
+  } 
+}
+
+
