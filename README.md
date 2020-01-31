@@ -1,9 +1,9 @@
 # maXval
 
-https://maxval.herokuapp.com/
+https://valuation-1.herokuapp.com/
 
-maXval is a dynamic MERN stack application that provides crowdsourced product valuation for modern market research. The app enables individuals and companies of any size to quickly evaluate their products in a simple and approachable platform.
-Using maXval, you can easily see how others view your product, receive valuable feedback to inform your marketing and pricing strategies, and discover a faster path to successful product launches.
+valuation is a dynamic MERN stack application that provides crowdsourced product valuation for modern market research. The app enables individuals and companies of any size to quickly evaluate their products in a simple and approachable platform.
+Using valuation app, you can easily see how others view your product, receive valuable feedback to inform your marketing and pricing strategies, and discover a faster path to successful product launches.
 
 ### How It Works
 * Start rating products immediately without signing up for an account, or log in to rate products and upload your own items for review. 
@@ -15,4 +15,4 @@ Using maXval, you can easily see how others view your product, receive valuable 
 ### Technologies Used
 JavaScript, HTML, CSS, React, Express, Node, MongoDB, Mongoose, Firebase, Axios, Materialize, Material-UI, Chart.js
 
-![maXval gif](https://github.com/natplusultra/maXval/blob/master/client/public/images/maXval.gif)
+
