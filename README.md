@@ -1,4 +1,4 @@
-# maXval
+# Valuation
 
 https://valuation-1.herokuapp.com/
 
