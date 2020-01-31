@@ -22,7 +22,7 @@ app.use(routes);
 // sets up promises with mongoose
 mongoose.Promise = global.Promise;
 // connects to the mongo db
-mongoose.connect( process.env.MONGODB_URI || "mongodb://localhost/maxval");
+mongoose.connect( process.env.MONGODB_URI || "mongodb://localhost/valuation");
 
 // starts the API server
 app.listen(PORT, function() {
