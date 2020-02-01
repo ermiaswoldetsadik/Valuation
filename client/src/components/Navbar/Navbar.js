@@ -7,7 +7,7 @@ const Navbar = props => (
     <div className="nav-wrapper">
         <nav className="site-navbar">
             <div className="nav-wrapper">
-                <Link to="/" className="brand-logo"><i className="material-icons">thumbs_up_down</i> maXval</Link>
+                <Link to="/" className="brand-logo"><i className="material-icons"></i> Valuation</Link>
                 <ul className="right">
                     <li>{ props.loggedIn ? <Link to="/rate">Rate</Link> : <Link to="/login">Log In</Link> }</li>
                     <li>{ props.loggedIn ? <Link to="/logout">Log Out</Link> : null }</li>
