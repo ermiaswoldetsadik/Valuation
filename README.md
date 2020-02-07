@@ -13,6 +13,6 @@ Using the valuation app, you can easily see how others view your product, receiv
 * Charts and graphs on the product's page will show the ratings distribution, total votes, and averages.
 
 ### Technologies Used
-JavaScript, HTML, CSS, React, Express, Node, MongoDB, Mongoose, Firebase, Axios, Materialize, Material-UI, Chart.js
+JavaScript, HTML, CSS, React, Express, Node, MongoDB, Mongoose, Firebase, Axios, Material-UI, Chart.js
 
 
