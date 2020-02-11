@@ -1,9 +1,9 @@
 // Imports for connecting to Mongoose
 const mongoose = require("mongoose");
-
+const Schema = mongoose.Schema;
 // Create schema for mongoose database collection to store item data
 
-const ItemSchema = new Schema({
+  const ItemSchema = new Schema ({
   img: { type: String },
   dateUploaded: { type: Date, default: Date.now },
   description: { type: String },

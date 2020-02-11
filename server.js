@@ -21,10 +21,10 @@ app.use(express.static("client/build"));
 app.use(routes);
 
 // Initialize Mongoose connection to MONGO DB
-mongoose.Promise = global.Promise;
+
 
 // Connect to the MongoDB via Mongoose
-mongoose.connect( process.env.MONGODB_URI || "mongodb://<items>:<valuation123>@ds035557.mlab.com:35557/heroku_6lwhkp9d")
+mongoose.connect( process.env.MONGODB_URI || "mongodb://<items>:<valuation123>@ds035557.mlab.com:35557/heroku_6lwhkp9d", { useNewUrlParser: true});
 
 // Start listening on PORT for server
 app.listen(PORT, function() {
