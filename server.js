@@ -26,5 +26,5 @@ mongoose.connect( process.env.MONGODB_URI || "mongodb://<items>:<valuation123>@d
 
 // starts the API server
 app.listen(PORT, function() {
-    // console.log(`🌎  ==> API Server now listening on PORT ${PORT}.`);
+     console.log(`🌎  ==> API Server now listening on PORT ${PORT}.`);
 });
