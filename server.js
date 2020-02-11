@@ -22,7 +22,8 @@ app.use(routes);
 // sets up promises with mongoose
 mongoose.Promise = global.Promise;
 // connects to the mongo db
-mongoose.connect( process.env.MONGODB_URI || "mongodb://<items>:<valuation123>@ds035557.mlab.com:35557/heroku_6lwhkp9d");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://<items>:<valuation123>@ds035557.mlab.com:35557/heroku_6lwhkp9d"
+);
 
 // starts the API server
 app.listen(PORT, function() {
